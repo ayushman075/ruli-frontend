@@ -73,7 +73,7 @@ const RulesTables = () => {
    
   return (
     <div>
-       <div className='my-6'>
+       <div className='my-6 overflow-x-scroll'>
        <Table
       columns={columns}
       dataSource={rulesData}
